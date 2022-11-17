@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,10 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <link rel="icon" type="image/x-icon" href="{% static 'favicon.ico' %}">
     {% load bootstrap4 %}
     {% bootstrap_css %}
     {% bootstrap_javascript %}
-    {% load static %}
 
     {% block head %}{% endblock %}
 
@@ -123,12 +125,16 @@
     </div>
     <!-- End of Page Wrapper -->
 
-    <!-- Bootstrap core JavaScript-->
+    <!-- Core plugin JavaScript-->
     <script src="{% static 'js/jquery.min.js' %}"></script>
+
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+
+    <!-- Bootstrap core JavaScript-->
+
     <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+
 
     <!-- Custom scripts for all pages-->
     <script src="{% static 'js/admin.min.js' %}"></script>
