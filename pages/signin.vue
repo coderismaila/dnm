@@ -60,15 +60,6 @@ const onSubmit = handleSubmit(async (values) => {
       // @ts-ignore
       description: error.statusMessage,
       variant: "destructive",
-      action: h(
-        ToastAction,
-        {
-          altText: "Try again",
-        },
-        {
-          default: () => "Try again",
-        }
-      ),
     });
   } finally {
     loading.value = false;
