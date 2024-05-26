@@ -1,5 +1,15 @@
+<script setup lang="ts">
+const { loggedIn } = useUserSession();
+
+watch(loggedIn, () => {
+  if (!loggedIn.value) {
+    navigateTo("/signin");
+  }
+});
+</script>
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+    <Toaster />
+  </NuxtLayout>
 </template>

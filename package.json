@@ -7,11 +7,39 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxthub/core": "^0.5.18",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vee-validate/zod": "^4.12.8",
+    "@vueuse/core": "^10.9.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.30.10",
+    "h3-zod": "^0.5.3",
+    "lucide-vue-next": "^0.379.0",
     "nuxt": "^3.11.2",
+    "nuxt-auth-utils": "^0.0.25",
+    "oslo": "^1.2.0",
+    "radix-vue": "^1.8.1",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.12.8",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.3.13",
+    "drizzle-kit": "^0.21.4",
+    "nuxt-icon": "^0.6.10",
+    "nuxt-lucide-icons": "^1.0.4",
+    "typescript": "^5.4.5",
+    "wrangler": "^3.57.1"
   }
 }
