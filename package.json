@@ -1,0 +1,32 @@
+{
+  "name": "dnm",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.4.0",
+    "@nuxthub/core": "^0.7.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.424.0",
+    "nuxt": "^3.12.4",
+    "radix-vue": "^1.9.2",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.4.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "eslint": "^9.8.0",
+    "vue-tsc": "^2.0.29",
+    "wrangler": "3.67.1"
+  }
+}
