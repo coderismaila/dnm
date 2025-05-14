@@ -1,8 +1,8 @@
 <script setup lang="ts">
-type Links = {
+interface Links {
   title: string;
   href: string;
-};
+}
 withDefaults(defineProps<{
   links: Links[];
   separator?: string;

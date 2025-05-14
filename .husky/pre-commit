@@ -1,1 +1,1 @@
-bunx husky init
+bun lint-staged
